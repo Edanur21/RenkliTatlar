@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bloglar</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!--! header section start-->
+    <header class="header">
+         <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" />
+         </a>
+         <nav class="navbar">
+           <a href="index.html" >Anasayfa</a>
+           <a href="about.html">Hakkımızda</a>
+           <a href="menu.html">Menü</a>
+           <a href="products.html" >Ürünler</a>
+           <a href="review.html">Yorumlar</a>
+           <a href="contact.html">İletişim</a>
+           <a href="blogs.html"  class="active">Bloglar</a>
+         </nav>
+
+         <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+         </div>
+
+         <div class="search-form">
+            <input
+            type="text"
+            class="search-input"
+            id="search-box"
+            placeholder="arama yapın"
+            />
+            <i class="fas fa-search"></i>
+         </div>
+
+         <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 01</h3>
+                    <div class="price">200₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 02</h3>
+                    <div class="price">200₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 03</h3>
+                    <div class="price">100₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 04</h3>
+                    <div class="price">250₺</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Ödeme Yap</a>
+         </div>
+    </header>
+    <!--! header section end-->
+
+    <!--! blogs section start-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> Bloglarımız </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-1.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title"> Çikolatalı dondurma nasıl yapılır? </a>
+                    <span>Admin / 2 Mart, 2025</span>
+                    <p>
+                        Çikolatalı dondurmamız, süt ve kremaya eritilmiş bitter çikolata eklenerek hazırlanır, ardından dondurma makinesinde dondurulur. Sonuç, yoğun çikolata tadında serinletici bir lezzet!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-2.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title"> dondurmalı tart nasıl <br> yapılır? </a>
+                    <span>Admin / 10 Mart, 2025</span>
+                    <p>
+                        Dondurma tartımızı limonlu dondurma ile hazırlıyoruz. Tart tabanına dondurmayı yerleştirip üzerine çırpılmış krema ekliyoruz. Servis ediyoruz; ferahlatıcı bir lezzet!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-3.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title">kızartılmış dondurma nasıl yapılır? </a>
+                    <span>Admin / 18 Mart, 2025</span>
+                    <p>
+                        Kızartılmış dondurmayı, dondurma toplarını un, yumurta ve galeta ununa bulayıp kızartarak hazırlıyoruz. Dışı çıtır, içi soğuk bir lezzet sunuyoruz!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! blogs section end-->
+
+    <!--! footer section start-->
+    <section class="footer">
+        <div class="search">
+            <input type="text"
+            class="search-input" 
+            placeholder="Ara" />
+            <button class ="btn bnt-primary">Arama yap</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">Anasayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Menü</a>
+            <a href="#">Ürünler</a>
+            <a href="#">Yorumlar</a>
+            <a href="#">İletişim</a>
+            <a href="#">Bloglar</a>
+        </div>
+
+        <div class="credit">
+            <span>Edanur BAYRAM </span>tarafından oluşturuldu <br> tüm hakları saklıdır
+        </div>
+    </section>
+    <!--! footer section end-->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

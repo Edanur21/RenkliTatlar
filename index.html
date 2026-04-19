@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Renkli Tatlar</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!--! header section start-->
+    <header class="header">
+         <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" />
+         </a>
+         <nav class="navbar">
+           <a href="index.html" class="active">Anasayfa</a>
+           <a href="about.html">Hakkımızda</a>
+           <a href="menu.html">Menü</a>
+           <a href="products.html">Ürünler</a>
+           <a href="review.html">Yorumlar</a>
+           <a href="contact.html">İletişim</a>
+           <a href="blogs.html">Bloglar</a>
+         </nav>
+
+         <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+         </div>
+
+         <div class="search-form">
+            <input
+            type="text"
+            class="search-input"
+            id="search-box"
+            placeholder="arama yapın"
+            />
+            <i class="fas fa-search"></i>
+         </div>
+
+         <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 01</h3>
+                    <div class="price">200₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 02</h3>
+                    <div class="price">200₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 03</h3>
+                    <div class="price">100₺</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="menu">
+                <div class="content">
+                    <h3>Sepet Ürünü 04</h3>
+                    <div class="price">250₺</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Ödeme Yap</a>
+         </div>
+    </header>
+    <!--! header section end-->
+
+    <!--! home section start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>TATLI ANLARIN BUZ GİBİ HİSSİ</h3>
+        <P>
+            Dondurmanız hızla kapınızda, tazeliğiyle fark yaratır! <br>
+            Soğuk lezzet, anında keyif.
+        </P>
+        <a href="#" class="btn">SİPARİŞ VER</a>
+        </div>
+    </section>
+    <!--! home section end-->
+
+    <!--! menu section start-->
+    <section class="menu" id="menu">
+        <h1 class="heading"> öne çıkanlar</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                   <img src="images/menu-1.png"
+                   alt="menu" />
+                   <span class="menu-category">DONDURMA</span>
+                   <h3>Sundae</h3>
+                   <div class="price">200₺ <span>299.99</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">SEPETE EKLE</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                   <img src="images/menu-2.png"
+                   alt="menu" />
+                   <span class="menu-category">DONDURMA</span>
+                   <h3>Dondurmalı Sandviç</h3>
+                   <div class="price">200₺ <span>299.99</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">SEPETE EKLE</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                   <img src="images/menu-3.png"
+                   alt="menu" />
+                   <span class="menu-category">DONDURMA</span>
+                   <h3>Dondurma Çubukları</h3>
+                   <div class="price">100₺ <span>149.99</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">SEPETE EKLE</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                   <img src="images/menu-4.png"
+                   alt="menu" />
+                   <span class="menu-category">DONDURMA</span>
+                   <h3>Waffle</h3>
+                   <div class="price">250₺ <span>299.99</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">SEPETE EKLE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! menu section end-->
+
+    <!--! products section start-->
+    <section class="products" id="products">
+        <h1 class="heading">ÜRÜNLERİMİZ </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">DONDURMA</span>
+                    <a href="#" class="name">KÜLAH</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">60₺</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">DONDURMA</span>
+                    <a href="#" class="name">BUZLU RÜYALAR</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">280₺</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box dark-bg">
+                <div class="box-head">
+                    <span class="title">DONDURMA</span>
+                    <a href="#" class="name">İÇECEK</a>
+                </div>
+                <div class="image">
+                    <img src="images/dark-product.jpg" alt="" />
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">150₺</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! products section end-->
+
+    <!--! about section start-->
+    <section class="about" id="about">
+        <h1 class="heading">hakkımızda</h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+            <h3>Dondurma Tutkusu: Tazelik ve Lezzet Her Zaman Kapınızda!</h3>
+            <p>
+                Biz, taze ve kaliteli dondurmaların en hızlı şekilde kapınıza ulaşmasını sağlamak için buradayız! Her biri özenle seçilen malzemelerle hazırlanan dondurmalarımız, doğal tatlarıyla sizi mest edecek. Müşteri memnuniyeti ve hız, önceliğimizdir. Siparişinizin en taze haliyle, hızla ve güvenle size ulaşmasını sağlıyoruz.
+                Dondurmalarımız, her anınızı tatlandırmak ve soğuk lezzetlerle keyifli anlar oluşturmak için hazır. İster klasik favorileriniz, ister yenilikçi tatlar; her damak zevkine hitap eden geniş bir seçenek sunuyoruz. Sadece lezzet değil, hız da bizim işimiz!
+                Soğuk, taze ve lezzetli dondurmanın adresi… Bizimle her zaman bir adım öndesiniz.
+            </p>
+            <a href="#" class="btn">daha fazla</a>
+        </div>
+    </div>
+    </section>
+    <!--! about section end-->
+
+    <!--! review section start-->
+    <section class="review" id="review">
+        <h1 class="heading"> müşterİ yorumları </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote.png" alt="quote" />
+                <p>
+                    Bu dondurmanın tadı harika! Farklı aromalar denedim ve her biri ayrı bir lezzet. Hem taze hem de krema kıvamı mükemmel. Kesinlikle tekrar sipariş vereceğim!
+                </p>
+                <img src="images/avatar-1.png" alt="avatar" class="user" />
+                <h3> Zehra </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote" />
+                <p>
+                    Dondurmalarım sipariş ettiğim gün elime ulaştı. Paketleme çok özenliydi, dondurmalarım bir damla bile erimemişti. Fiyatlar da oldukça uygun. Teşekkürler!
+                </p>
+                <img src="images/avatar-2.png" alt="avatar" class="user" />
+                <h3> Ahmet </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote" />
+                <p>
+                    Dondurma alışverişimden çok memnun kaldım! Özellikle çikolatalı dondurması favorim oldu. Ayrıca, müşteri hizmetleri de çok yardımcı oldu. Herkese tavsiye ederim!
+                </p>
+                <img src="images/avatar-3.png" alt="avatar" class="user" />
+                <h3> Elif </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! review section end-->
+
+    <!--! contact section start-->
+    <section class="contact" id="contact">
+        <h1 class="heading">İletİşİm</h1>
+        <div class="row">
+            <iframe 
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d42348.894276084575!2d41.13594555619856!3d37.91640193746338!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1741733496168!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <form>
+            <h3>İLETİŞİME GEÇ </h3>
+            <div class="inputBox">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="isim" />
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="email" />
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-phone"></i>
+                <input type="number" placeholder="telefon" />
+            </div>
+            <input type="submit" class="btn" value="İletişime Geç">
+          </form>
+        </div>
+    </section>
+    <!--! contact section end-->
+
+    <!--! blogs section start-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> Bloglarımız </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-1.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title"> Çikolatalı dondurma nasıl yapılır? </a>
+                    <span>Admin / 2 Mart, 2025</span>
+                    <p>
+                        Çikolatalı dondurmamız, süt ve kremaya eritilmiş bitter çikolata eklenerek hazırlanır, ardından dondurma makinesinde dondurulur. Sonuç, yoğun çikolata tadında serinletici bir lezzet!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-2.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title"> dondurmalı tart nasıl <br> yapılır? </a>
+                    <span>Admin / 10 Mart, 2025</span>
+                    <p>
+                        Dondurma tartımızı limonlu dondurma ile hazırlıyoruz. Tart tabanına dondurmayı yerleştirip üzerine çırpılmış krema ekliyoruz. Servis ediyoruz; ferahlatıcı bir lezzet!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                 <img src="images/blog-3.jpg" alt="blog">
+                </div> 
+                <div class="content">
+                    <a href="#" class="title">kızartılmış dondurma nasıl yapılır? </a>
+                    <span>Admin / 18 Mart, 2025</span>
+                    <p>
+                        Kızartılmış dondurmayı, dondurma toplarını un, yumurta ve galeta ununa bulayıp kızartarak hazırlıyoruz. Dışı çıtır, içi soğuk bir lezzet sunuyoruz!
+                    </p>
+                    <a href="#" class="btn">daha fazla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! blogs section end-->
+
+    <!--! footer section start-->
+    <section class="footer">
+        <div class="search">
+            <input type="text"
+            class="search-input" 
+            placeholder="Ara" />
+            <button class ="btn bnt-primary">Arama yap</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">Anasayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Menü</a>
+            <a href="#">Ürünler</a>
+            <a href="#">Yorumlar</a>
+            <a href="#">İletişim</a>
+            <a href="#">Bloglar</a>
+        </div>
+
+        <div class="credit">
+            <span>Edanur BAYRAM </span>tarafından oluşturuldu <br> tüm hakları saklıdır
+        </div>
+    </section>
+    <!--! footer section end-->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
